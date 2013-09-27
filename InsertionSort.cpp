@@ -1,6 +1,9 @@
+#ifndef InsertionSort_CPP
+#define InsertionSort_CPP
+
 #include <vector>
 
-namespace insertionsort
+namespace InsertionSort
 {
 	template <class T> void insertionSort( std::vector<T> &items )
 	{//Main Insertion Sort function. Sorts the vector items in-place.
@@ -16,3 +19,5 @@ namespace insertionsort
 		}
 	}
 }
+
+#endif /* InsertionSort_CPP */

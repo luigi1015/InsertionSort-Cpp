@@ -25,7 +25,7 @@ int main( int argc, const char* argv[] )
 	printVector<int>(A);
 	std::cout << std::endl;
 	
-	insertionsort::insertionSort<int>(A);
+	InsertionSort::insertionSort<int>(A);
 	
 	std::cout << "After sort:" << std::endl;
 	printVector<int>(A);
